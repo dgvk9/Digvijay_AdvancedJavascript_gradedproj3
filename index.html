@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Typing Test</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Test your Typing Speed</h1>
+        </header>
+        <main class="main">
+            <section class="metrics">
+                <!-- <div class="data">
+                    <h5>WPM</h5>
+                    <p id="words-per-minute">0</p>
+                </div>
+                <div class="data">
+                    <h5>CPM</h5>
+                    <p id="char-per-minutes">0</p>
+                </div> -->
+                <div id="err" class="data">
+                    <h5>Errors</h5>
+                    <p id="count-of-errors">0</p>
+                </div>
+                <div class="data">
+                    <h5>Time</h5>
+                    <p id="timer">60s</p>
+                </div>
+                <div id="%accuracy" class="data">
+                    <h5>%Accuracy</h5>
+                    <p id="accuracy">100</p>
+                </div>
+            </section>
+            <section class="text-box">
+                <div class="text-display">
+                    <p id="test-text" class="text">Click on start button to begin the test.</p>
+                </div>
+            </section>
+            <section class="writing-area">
+                <div class="writing-box">
+                    <textarea name="type-box" id="type-box" cols="95" rows="4" placeholder="start typing here..."></textarea>
+                </div>
+            </section>
+            <button class="button-21" role="button" onclick="startTest()">Start Test</button>
+        </main>
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>
